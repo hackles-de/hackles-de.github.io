@@ -1,0 +1,47 @@
+# Site settings
+title: Hackles.de
+email: 
+
+keywords: webcomic, comic, hackles, percy
+description: > # this means to ignore newlines until "baseurl:"
+  the hackles.de web comic.
+
+
+baseurl: 
+url: https://www.hackles.de
+
+# Exclude our ruby stuff
+exclude: [README.md, LICENSE]
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+
+# Compress our Css
+sass:
+  style: compressed
+
+permalink: /:categories/:slug
+
+#################################################
+####CUSTOM
+
+header_logo: /images/logo_nacklesde.gif
+  
+#### SEO Stuff
+
+# Facebook Opengraph
+facebook_user:
+facebook_app_id:                      #enter your App ID
+facebook_locale: de_DE
+facebook_page:                        #the URL of your Facebook Page
+facebook_image: /images/logo_nacklesde.gif #enter a default image (at least 200x200px) to use here for posts/pages that don't have one.
+
+# Twitter Cards
+twitter_user: 
+twitter_card: true
+twitter_image: /images/logo_nacklesde.gif  #enter a default image (at least 200x200px) to use here for posts/pages that don't have one.
+
+plugins:
+  - jekyll-sitemap

@@ -1,0 +1,43 @@
+---
+layout: default
+---
+<div class="container">
+	<div class="row justify-content-md-center">
+  		<div class="col-lg-7">
+	  	  <div class="d-flex">
+	  	        <div class="ml-auto pb-1">
+	  	           <a href="{{ page.book_link }}" target="_blank" class="comic-orig-link">Zum Original bei Hackles.org</a>
+	  	        </div>
+	  	   </div>
+	  {{ content }}
+  </div>
+	  
+
+    <nav class="col-lg-9 nav comic-nav mx-5 mb-3">
+	<ul class="nav mr-auto">
+	  {% if site.categories.book.last.url != page.url %}
+      <li class="nav-item">
+     	  <a class="nav-link" href="{{ site.baseurl }}{{ site.categories.book.last.url }}">das erste</a>
+      </li>
+	  {% endif %}
+  	  {% if page.previous.url and page.previous.categories == page.categories %}
+	   <li class="nav-item">
+      	  <a class="nav-link" href="{{ site.baseurl }}{{ page.previous.url }}">das vorherige</a>
+       </li>
+  	  {% endif %}
+  </ul>
+  <ul class="nav ml-auto">
+  	  {% if page.next.url %}
+       <li class="nav-item">
+      	  <a class="nav-link" href="{{ site.baseurl }}{{ page.next.url }}">das nächste</a>
+       </li>
+  	  {% endif %}
+	  {% if site.categories.book.first.url != page.url %}
+      <li class="nav-item">
+     	  <a class="nav-link" href="{{ site.baseurl }}{{ site.categories.book.first.url }}">das letzte</a>
+      </li>
+	  {% endif %}
+  </ul>
+    </nav>
+  	    </div>
+  </div>

@@ -1,0 +1,58 @@
+body {
+	background-color: #FF8400;
+	font-family: 'Roboto', sans-serif;
+	padding-bottom: 70px;
+}
+
+.circle {
+   width: 800px;
+   height: 800px;
+   background: #ED7C04;
+   -moz-border-radius: 70px;
+   -webkit-border-radius: 70px;
+   border-radius: 400px;
+   top: -200px;
+   left: -100px;
+   position: absolute;
+   z-index: -1;
+}
+
+img.cartoon {
+	width: 100%;
+}
+
+.navbar-nav.comic .nav-link {
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 2em;
+}
+
+.comic-nav {
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 1.5em;
+}
+
+.comic-orig-link,
+.comic-font {
+	font-family: 'Gloria Hallelujah', cursive;
+}
+
+a.custom-card {
+  color: inherit;
+  text-decoration: none;
+  
+  &:hover {
+	  color: inherit;
+	  
+	  .row {
+	     background-color: #F6FD5D;
+	  }
+  }
+}
+
+a {
+	color: black;
+	
+	&:hover {
+		color: rgb(246, 253, 55);
+	}
+}

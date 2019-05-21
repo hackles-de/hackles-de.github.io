@@ -1,0 +1,31 @@
+- name: "Hackles"
+  pic: "/images/characters/biohackles.png"
+  bio: "Hackles ist unser Held, der glücklose Programmiererhund. Wie viele Hunde ist er freundlich und möchte nur mit seinen Bürokollegen auskommen. Er kümmert sich nicht um Büropolitik (oder hat gar ein Händchen dafür) oder schafft Konflikte. Meistens zieht er es vor, in Ruhe gelassen zu werden um zu Coden und große Mengen Kaffee zu trinken. Hackles ist ein wahrer Technikfreak, der Dungeons and Dragons mag, den Sci-Fi-Kanal schaut und Roboter baut."
+
+- name: "Katrina Vittles"
+  pic: "/images/characters/biocat.png"
+  bio: "Katrina ist eine freigeistige Katze, die oft zwischen ihrem katzenartigen Instinkt und der zivilisierten Geschäftswelt hin und her gerissen ist. Als ausgebildete Webentwicklerin liebt sie Unix, HTML, JavaScript und das Erstellen von Webbildern mit Gimp. Katrinas nerdige Seite beinhaltet auch eine Liebe für Science-Fiction, insbesondere für Star Trek und Star Wars. Wie viele Katzen mit Computerkenntnissen kann Katrina erwischt werden, wie sie mit der Maus herumwirbelt, wenn niemand hinschaut."
+
+- name: "Boss Dog"
+  pic: "/images/characters/bioboss.png"
+  bio: "Der Chef ist ein ausgeglichener Hund, der unermüdlich versucht, BitCo zum Erfolg zu führen. Er ist nicht das technisch versierteste Tier bei BitCo, aber er macht das mit seinen hervorragenden Fähigkeiten als Mensch (äh, Tier) wieder wett. Es ist eine Vollzeitbeschäftigung, so viele Tiere glücklich und produktiv zu halten. Während er oft durch ihre Exzentrizität verwirrt ist, hat Boss Dog tiefes Vertrauen in seine Mitarbeiter."
+
+- name: "Marcus Mouse"
+  pic: "/images/characters/biomouse.png"
+  bio: "Marcus ist ein hitzköpfiges Nagetier. Seine Ansichten sind in der Regel eher konservativ sein, und er macht kein Hehl daraus sie zu äußern. Er kann sich auf die Nerven seiner Amtskollegen verlassen, hat aber auch die Rücksichtslosigkeit, die erforderlich ist, um als Verkäufer bei BitCo erfolgreich zu sein."
+
+- name: "Peter & Percy Penguin"
+  pic: "/images/characters/biopenguins.png"
+  bio: "Diese Jungs sind ein kryptisches Duo, das sehr wenig sagt, aber als BitCo-Netzwerkadministratoren unglaubliche Macht besitzt. Peter und Percy verbringen ihre Tage und Nächte damit, endlos auf die Tasten ihrer aufgeladenen Linux-Workstations zu tippen, ihre Feinde wortlos zu zerstören und sich zu amüsieren. Jede Ähnlichkeit, die sie mit dem berühmten Linux-Maskottchen Tux haben, ist natürlich rein zufällig."
+
+- name: "Hazel Hopkins"
+  pic: "/images/characters/biohazel.png"
+  bio: "Hazel ist die Empfangsdame bei BitCo. Jeder versteht sich mit diesem netten Kaninchen, obwohl sie ziemlich nervös und sprunghaft sein kann. Das Telefon erschreckt sie oft nur durch das Klingeln. Wie die meisten Kaninchen liebt sie Karotten in jeder Form. Im Gegensatz zu den meisten Kaninchen hat Hazel aber ein schlechtes Sehvermögen und muss eine Brille tragen. Während sie ihren Job und ihre Mitarbeiter mag, ist sie leicht abgelenkt und kann oft am Schreibtisch dösen oder auf den Grasbergen außerhalb des Büros träumen."
+
+- name: "Preston Pigglesworth III"
+  pic: "/images/characters/biopig.png"
+  bio: "Preston ist Programmierer bei BitCo. Tag und Nacht kann man sehen, wie dieser übergewichtige \"Mastschwein\" schlampigen Code raushaut und Junk Food und das ultra-koffeinhaltige Getränk Mountain Swill verschlingt. Er ist eher unreif und prahlt oft und laut über seine \"l33t 5killz\", sehr zum Ärger von allen anderen im Büro. Obwohl Preston überheblich und krass ist, ist er im Grunde seines Herzens ein Nerd. Er und Hackles scheinen viel zusammen abzuhängen."
+
+- name: "Vic"
+  pic: "/images/characters/biovic.png"
+  bio: "Vic ist ein Roboter, den Hackles aus einer alten Vic 20-Maschine und einigen Computerersatzteilen gebaut hat. Ursprünglich wollte Hackles einen Battle Bot erschaffen, aber beim Kauf von Ausrüstung fehlte ihm etwas Geld. Sicher, Vic ist viel weniger wild als ein Kampfbot, aber er gleicht das mit seiner Intelligenz und bemerkenswerten Empfindsamkeit aus. Dies ist ziemlich beeindruckend, wenn man bedenkt, dass er nur 3,5 KB RAM zusammen mit einem 1-MHz-Prozessor besitzt. Als einziger Vic 20-basierter Roboter auf der Welt steckt Vic in einer Identitätskrise und versucht immer, seinen Lebenszweck zu entdecken, während er sich an die Nicht-Roboter-Gesellschaft anpasst."

@@ -1,0 +1,49 @@
+---
+layout: default
+---
+<div class="container">
+	<div class="row justify-content-md-center">
+		{% if page.is_square %}
+  		<div class="col-lg-7">
+  	  	{% else %}
+		<div class="col-lg-9">
+		{% endif %}
+	  	  <div class="d-flex">
+	  	        <div class="ml-auto pb-1">
+	  	           <a href="http://www.hackles.org/cgi-bin/archives.pl?request={{ page.my_index }}" target="_blank" class="comic-orig-link">Zum Original bei Hackles.org</a>
+	  	        </div>
+	  	   </div>
+	  {{ content }}
+	  
+	  <span>{{ page.previous.category }}</span>
+  </div>
+	  
+
+    <nav class="col-lg-9 nav comic-nav mx-5 mb-3">
+	<ul class="nav mr-auto">
+	  {% if site.categories.cartoon.last.url != page.url %}
+      <li class="nav-item">
+     	  <a class="nav-link" href="{{ site.baseurl }}{{ site.categories.cartoon.last.url }}">das erste</a>
+      </li>
+	  {% endif %}
+  	  {% if page.previous.url and page.previous.categories == page.categories %}
+	   <li class="nav-item">
+      	  <a class="nav-link" href="{{ site.baseurl }}{{ page.previous.url }}">das vorherige</a>
+       </li>
+  	  {% endif %}
+  </ul>
+  <ul class="nav ml-auto">
+  	  {% if page.next.url and page.next.categories == page.categories %}
+       <li class="nav-item">
+      	  <a class="nav-link" href="{{ site.baseurl }}{{ page.next.url }}">das nächste</a>
+       </li>
+  	  {% endif %}
+	  {% if site.categories.cartoon.first.url != page.url %}
+      <li class="nav-item">
+     	  <a class="nav-link" href="{{ site.baseurl }}{{ site.categories.cartoon.first.url }}">das letzte</a>
+      </li>
+	  {% endif %}
+  </ul>
+    </nav>
+  	    </div>
+  </div>

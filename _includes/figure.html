@@ -1,0 +1,9 @@
+<!--figure tags without plugin: http://stackoverflow.com/questions/19331362/using-an-image-caption-in-markdown-jekyll -->
+
+<figure>
+	{% if include.category %}
+   <img src="{{ site.baseurl }}/images/{{ include.category }}/{{ include.src }}" alt="{{ include.alt }}" title="{{ include.alt }}" class="border cartoon shadow p-3 mb-3 bg-white rounded">
+    {% else %}
+   <img src="{{ site.baseurl }}/images/cartoon/{{ include.src }}" alt="{{ include.alt }}" title="{{ include.alt }}" class="border cartoon shadow p-3 mb-3 bg-white rounded">
+    {% endif %}
+</figure>
