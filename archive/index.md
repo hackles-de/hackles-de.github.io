@@ -5,7 +5,7 @@ title: Archiv
 <div class="container">
 	<div class="row justify-content-md-center">
 	{% for post in site.categories.cartoon %}
-	<a href="{{ post.url }}" class="custom-card">
+	<a href="{{ site.baseurl }}{{ post.url }}" class="custom-card">
 	<div class="card m-3 shadow border" style="width: 500px">
 	  <div class="row no-gutters">
 	    <div class="col-md-4">

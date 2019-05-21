@@ -17,6 +17,6 @@ title: Suche
   	<div class="row justify-content-md-center" id="search_results">		
 	</div>
 </div>
-<script src="/js/jquery-3.1.0.min.js"></script>
-<script src="/js/lunr.min.js"></script>
-<script src="/js/search.min.js"></script>
+<script src="{{ site.baseurl }}/js/jquery-3.1.0.min.js"></script>
+<script src="{{ site.baseurl }}/js/lunr.min.js"></script>
+<script src="{{ site.baseurl }}/js/search.min.js"></script>

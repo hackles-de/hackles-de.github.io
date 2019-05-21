@@ -6,7 +6,7 @@ layout: null
     "{{ post.url | slugify }}": {
       "title": "{{ post.germantitle | xml_escape }}",
       "content"	 : "{{ post.description | strip_html | strip_newlines | remove:  "	" | escape | remove: "\"}}",
-      "url": " {{ post.url | xml_escape }}",
+      "url": "{{ site.baseurl }}{{ post.url | xml_escape }}",
 	  "publish_date": "{{ post.date | date: "%d.%m.%Y" }}",
 	  "thumbnail": "{{ site.baseurl }}/images/cartoon/thumbs/{{ post.image }}",
 	  "my_index" : "{{ post.my_index }}",
