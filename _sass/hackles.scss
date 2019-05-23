@@ -36,6 +36,26 @@ img.cartoon {
 	font-family: 'Gloria Hallelujah', cursive;
 }
 
+@media (min-width: 768px) {
+	.comic-nav .nav-link.small {
+		display: none;
+	}
+	.comic-nav .nav-link.big {
+		display: block;
+	}
+}
+
+@media (max-width: 768px) {
+	.comic-nav .nav-link.small {
+	    display: block;
+	}
+	.comic-nav .nav-link.big {
+		display: none;
+	}
+}
+
+
+
 a.custom-card {
   color: inherit;
   text-decoration: none;
