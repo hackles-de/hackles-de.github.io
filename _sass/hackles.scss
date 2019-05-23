@@ -1,7 +1,10 @@
 body {
 	background-color: #FF8400;
 	font-family: 'Roboto', sans-serif;
-	padding-bottom: 70px;
+}
+
+.logo {
+	margin-left: 150px;
 }
 
 .circle {
@@ -15,6 +18,18 @@ body {
    left: -100px;
    position: absolute;
    z-index: -1;
+}
+
+@media (max-width: 768px) {
+	.circle {
+	    width: 500px;
+	    height: 500px;
+		border-radius: 250px;
+	}
+	
+	.logo {
+		margin-left: 10px;
+	}
 }
 
 img.cartoon {
