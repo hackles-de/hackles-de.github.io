@@ -69,7 +69,18 @@ img.cartoon {
 	}
 }
 
+.navbar-collapse.show {
+	background-color: #FF8400;
+	position: absolute;
+	top:50px;
+	box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15) !important;
+	z-index: 1000;
+	padding: 10px;
+}
 
+.collapsing {
+  transition: none !important;
+}
 
 a.custom-card {
   color: inherit;
@@ -84,6 +95,7 @@ a.custom-card {
   }
 }
 
+.navbar-light .navbar-nav .nav-link,
 a {
 	color: black;
 	
