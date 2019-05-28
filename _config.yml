@@ -8,7 +8,7 @@ description: > # this means to ignore newlines until "baseurl:"
 
 
 baseurl: 
-url: https://www.hackles.de
+url: https://hackles-de.github.io
 
 # Exclude our ruby stuff
 exclude: [README.md, LICENSE]
@@ -32,10 +32,9 @@ header_logo: /images/logo_nacklesde.gif
 #### SEO Stuff
 
 # Facebook Opengraph
-facebook_user:
+facebook_use: true
 facebook_app_id:                      #enter your App ID
 facebook_locale: de_DE
-facebook_page:                        #the URL of your Facebook Page
 facebook_image: /images/logo_nacklesde.gif #enter a default image (at least 200x200px) to use here for posts/pages that don't have one.
 
 # Twitter Cards
