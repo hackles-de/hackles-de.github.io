@@ -14,7 +14,7 @@ title: Impressum
 			<p class="pl-5">Hackles.de Team</p>
 			<h3 class="comic-font">Original-Comics</h3>
 			<p class="pl-5">Drake Emko & Jen Brodzik<br />
-<a href="hackles.org">hackles.org</a>
+<a href="http://hackles.org">hackles.org</a>
 </p>
 		</div>
 	</div>
